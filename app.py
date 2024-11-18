@@ -180,8 +180,8 @@ def main():
 
     if st.session_state['page'] == "Home":
         st.subheader("Home")
-        st.image("images/football.jpg", caption="Soccer Tournament", use_container_width=True)
-        st.image("images/cricket.jpg", caption="Cricket Tournament", use_container_width=True)
+        st.image("football.jpg", caption="Soccer Tournament", use_container_width=True)
+        st.image("cricket.jpg", caption="Cricket Tournament", use_container_width=True)
 
     elif st.session_state['page'] == "Player Section":
         player_menu = ["Player Login", "New Player Registration", "Player Dashboard"]
